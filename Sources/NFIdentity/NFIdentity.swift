@@ -3,7 +3,7 @@
 
 import Foundation
 
-public final class Identity {
+public final class NFIdentity {
     
     let myID: UUID
     
