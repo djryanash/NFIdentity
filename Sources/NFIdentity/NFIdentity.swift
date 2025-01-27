@@ -5,6 +5,13 @@ import Foundation
 
 public final class Identity {
     
+    let myID: UUID
+    
+    init() {
+        myID = UUID()
+        
+    }
+    
     public func encrypt() -> String {
         "Your data has just been encrypted."
     }
