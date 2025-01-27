@@ -7,7 +7,7 @@ public final class NFIdentity {
     
     let myID: UUID
     
-    init() {
+    public init() {
         myID = UUID()
         
     }
